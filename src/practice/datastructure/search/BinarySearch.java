@@ -26,6 +26,12 @@ public class BinarySearch extends BaseSearch {
         System.out.println(" arr[" + result2 + "] is ---> " + arr1[result2]);
     }
 
+    /**
+     * find the first index that bigger than target
+     * @param arr
+     * @param target
+     * @return
+     */
     private static int findTheFirstBiggerTarget(int[] arr, int target) {
         int low = 0;
         int high = arr.length - 1;
