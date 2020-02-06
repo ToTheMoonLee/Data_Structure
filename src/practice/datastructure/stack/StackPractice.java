@@ -1,6 +1,7 @@
 package practice.datastructure.stack;
 
-import com.moonight.practice.datastructure.ListNode;
+
+import practice.datastructure.ListNode;
 
 public class StackPractice {
     // Leetcode 20,155,232,844,224,682,496

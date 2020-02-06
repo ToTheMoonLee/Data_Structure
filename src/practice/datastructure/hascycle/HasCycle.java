@@ -1,6 +1,7 @@
 package practice.datastructure.hascycle;
 
-import com.moonight.practice.datastructure.ListNode;
+
+import practice.datastructure.ListNode;
 
 import java.util.HashSet;
 
