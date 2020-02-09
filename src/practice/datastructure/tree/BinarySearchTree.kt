@@ -30,7 +30,54 @@ class BinarySearchTree : BaseTree() {
             println("----------------------- delete node")
             binarySearchTree.delete(root, 15)
             binarySearchTree.inOrder(root)
+
+            println()
+            println("----------------------- recursion insert")
+            binarySearchTree.recursionInsert(root, IntTreeNode(null, null, 15))
+            binarySearchTree.inOrder(root)
+
+
+            println()
+            println("----------------------- recursionDelete node")
+            binarySearchTree.recursionDelete(root, 15)
+            binarySearchTree.inOrder(root)
         }
+    }
+
+    fun recursionDelete(root: IntTreeNode?, data: Int): IntTreeNode? {
+        if (root == null) {
+            return null
+        }
+        if (data < root.data) {
+            root.left = recursionDelete(root.left, data)
+        } else if (data > root.data) {
+            root.right = recursionDelete(root.right, data)
+        } else {
+            if (root.left == null) {
+                return root.right
+            }
+            if (root.right == null) {
+                return root.left
+            }
+            var min = root.right
+            while (min != null) {
+                min = min.left
+            }
+            root.data = min?.data ?: -1
+            root.right = recursionDelete(root.right, min?.data ?: -1)
+        }
+        return root
+    }
+
+    fun recursionInsert(root: IntTreeNode?, node: IntTreeNode) : IntTreeNode? {
+        if (root == null) {
+            return node
+        }
+        when {
+            node.data < root.data -> root.left = recursionInsert(root.left, node)
+            node.data > root.data -> root.right = recursionInsert(root.right, node)
+        }
+        return root
     }
 
     fun delete(root: IntTreeNode?, data: Int): IntTreeNode? {
