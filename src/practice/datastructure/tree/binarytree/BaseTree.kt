@@ -1,4 +1,6 @@
-package practice.datastructure.tree
+package practice.datastructure.tree.binarytree
+
+import practice.datastructure.tree.binarytree.TreeNode
 
 open class BaseTree {
 

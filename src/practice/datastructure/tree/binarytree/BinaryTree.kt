@@ -1,4 +1,4 @@
-package practice.datastructure.tree
+package practice.datastructure.tree.binarytree
 
 import java.util.*
 import kotlin.collections.ArrayList

@@ -1,4 +1,6 @@
-package practice.datastructure.tree
+package practice.datastructure.tree.binarysearchtree
+
+import practice.datastructure.tree.binarytree.BaseTree
 
 class BinarySearchTree : BaseTree() {
 
@@ -33,7 +35,9 @@ class BinarySearchTree : BaseTree() {
 
             println()
             println("----------------------- recursion insert")
-            binarySearchTree.recursionInsert(root, IntTreeNode(null, null, 15))
+            binarySearchTree.recursionInsert(root,
+                IntTreeNode(null, null, 15)
+            )
             binarySearchTree.inOrder(root)
 
 
@@ -146,7 +150,7 @@ class BinarySearchTree : BaseTree() {
     }
 
     fun initBinarySearchTree(arr: Array<Int>): IntTreeNode {
-        val root = IntTreeNode(null, null,33)
+        val root = IntTreeNode(null, null, 33)
 
         for (item in arr) {
             insert(root, IntTreeNode(null, null, item))
