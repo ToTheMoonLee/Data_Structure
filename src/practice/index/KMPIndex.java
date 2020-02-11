@@ -6,7 +6,7 @@ public class KMPIndex {
 
     public static void main(String[] args) {
         char[] S = "abcabcdabcabceff".toCharArray();
-        char[] T =        "abcabcee".toCharArray();
+        char[] T =        "abcabcef".toCharArray();
 
         System.out.println(" index is " + index(S, T) + " , count is " + count);
     }
@@ -52,24 +52,19 @@ public class KMPIndex {
     }
 
     private static int[] getNextArray(char[] T) {
-        int[] arr = new int[T.length];
-        arr[0] = -1;
-        if (T.length <= 1) {
-            return arr;
-        }
-        int i = 0;
-        int j = 1;
-
-        while (j < T.length) {
-            if (i == 0 || T[i] == T[j]) {
-                arr[j] = i;
-                j++;
+        int[] next = new int[T.length];
+        next[0] = -1;
+        int i = -1;
+        int j = 0;
+        while (j < T.length-1) {
+            if (i == -1 || T[i] == T[j]) {
                 i++;
+                j++;
+                next[j] = i;
             } else {
-                i = arr[i];
+                i = next[i];
             }
         }
-
-        return arr;
+        return next;
     }
 }
