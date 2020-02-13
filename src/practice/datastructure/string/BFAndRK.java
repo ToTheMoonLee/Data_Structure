@@ -1,7 +1,7 @@
 package practice.datastructure.string;
 
 /**
- * BF算法，将模式串（长度m）与主串（长度n）的
+ * BF和RK算法，将模式串（长度m）与主串（长度n）的
  */
 public class BFAndRK extends BaseString {
 
@@ -29,7 +29,7 @@ public class BFAndRK extends BaseString {
                 sHash[k] = sHash[k] + powArr[i] * (s[i] - 'a');
             } else {
                 k++;
-                sHash[k] = (sHash[k - 1] - powArr[0] * (s[i - t.length] - 'a'))*26 + powArr[t.length - 1] * (s[i] - 'a');
+                sHash[k] = (sHash[k - 1] - powArr[0] * (s[i - t.length] - 'a')) * 26 + powArr[t.length - 1] * (s[i] - 'a');
             }
         }
         for (int i = 0; i < k; i++) {
