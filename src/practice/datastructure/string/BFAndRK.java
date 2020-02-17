@@ -7,8 +7,8 @@ public class BFAndRK extends BaseString {
 
     public static void main(String[] args) {
         initData();
-//        System.out.println(" index is ---> " + bfSearch(s, t));
-        System.out.println(" index is ---> " + rkSearch(s, t2));
+//        System.out.println(" index is ---> " + bfSearch(T, P));
+        System.out.println(" index is ---> " + rkSearch(T, P2));
     }
 
     private static int rkSearch(char[] s, char[] t) {
