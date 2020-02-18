@@ -17,7 +17,7 @@ public class KMPIndex {
         // 指向T模式串
         int j = 0;
         int[] nextArray = getNextArray(T);
-        while (i <= (S.length - T.length)) {
+        while (i <= S.length) {
             count++;
             while (j == -1 || j < T.length && S[i] == T[j]) {
                 count++;
