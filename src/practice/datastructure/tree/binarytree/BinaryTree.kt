@@ -3,6 +3,11 @@ package practice.datastructure.tree.binarytree
 import java.util.*
 import kotlin.collections.ArrayList
 
+/**
+ * pre order is      A->B->D->E->C->F->G->
+ * in order is       D->B->E->A->F->C->G->
+ * post order is     D->E->B->F->G->C->A->
+ */
 class BinaryTree : BaseTree() {
 
     companion object {

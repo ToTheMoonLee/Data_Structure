@@ -1,7 +1,10 @@
 package practice.datastructure.tree.binarytree
 
-import practice.datastructure.tree.binarytree.TreeNode
-
+/**
+ * pre order is      A->B->D->E->C->F->G->
+ * in order is       D->B->E->A->F->C->G->
+ * post order is     D->E->B->F->G->C->A->
+ */
 open class BaseTree {
 
     fun initTree(): TreeNode {
