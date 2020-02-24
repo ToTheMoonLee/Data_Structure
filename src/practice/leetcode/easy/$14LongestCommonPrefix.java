@@ -1,5 +1,20 @@
 package practice.leetcode.easy;
 
+/**
+ * Write a function to find the longest common prefix string amongst an array of strings.
+ *
+ * If there is no common prefix, return an empty string "".
+ *
+ * Example 1:
+ *
+ * Input: ["flower","flow","flight"]
+ * Output: "fl"
+ * Example 2:
+ *
+ * Input: ["dog","racecar","car"]
+ * Output: ""
+ * Explanation: There is no common prefix among the input strings.
+ */
 public class $14LongestCommonPrefix {
 
     public static void main(String[] args) {
@@ -9,6 +24,12 @@ public class $14LongestCommonPrefix {
         System.out.println(" result is " + longestCommonPrefix2(new String[]{"dog","racecar","car"}));
     }
 
+    /**
+     * the amazing version of others
+     * <a href="https://leetcode.com/problems/longest-common-prefix/discuss/6910/Java-code-with-13-lines">
+     * @param strs
+     * @return
+     */
     static String longestCommonPrefix2(String[] strs) {
         String prefix = "";
         if (strs == null || strs.length == 0) {
@@ -24,6 +45,11 @@ public class $14LongestCommonPrefix {
         return prefix;
     }
 
+    /**
+     * my solution of this problem
+     * @param strs
+     * @return
+     */
     static String longestCommonPrefix(String[] strs) {
         String prefix = "";
         if (strs == null || strs.length == 0) {
