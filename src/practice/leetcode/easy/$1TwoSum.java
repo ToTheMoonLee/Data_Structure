@@ -14,7 +14,7 @@ import java.util.HashMap;
  * Because nums[0] + nums[1] = 2 + 7 = 9,
  * return [0, 1].
  */
-public class TwoSum_1 {
+public class $1TwoSum {
 
     public static void main(String[] args) {
         int[] result = new Solution().twoSum(new int[]{2, 7, 11, 15}, 9);

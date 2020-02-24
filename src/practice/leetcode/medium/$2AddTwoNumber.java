@@ -17,7 +17,7 @@ import practice.datastructure.tree.binarytree.TreeNode;
  * Output: 7 -> 0 -> 8
  * Explanation: 342 + 465 = 807.
  */
-public class AddTwoNumber_2 {
+public class $2AddTwoNumber {
 
     public static void main(String[] args) {
         ListNode l1 = new ListNode(2);

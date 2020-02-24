@@ -50,7 +50,7 @@ import java.util.HashMap;
  * Output: 1994
  * Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
  */
-public class RomanToInteger_13 {
+public class $13RomanToInteger {
 
     public static void main(String[] args) {
         String s = "MCMXCIV";

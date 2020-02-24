@@ -1,6 +1,6 @@
 package practice.leetcode.easy;
 
-public class PalindromeNumber_9 {
+public class $9PalindromeNumber {
 
     public static void main(String[] args) {
         System.out.println(" result is " + isPalindrome(2));
