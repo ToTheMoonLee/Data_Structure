@@ -27,7 +27,7 @@ public class $21MergeTwoSortedLists {
             if (listNode.next == null) {
                 stringBuilder.append(listNode.val);
             }else {
-                stringBuilder.append(listNode.val + "->");
+                stringBuilder.append(listNode.val).append("->");
             }
             listNode = listNode.next;
         }
