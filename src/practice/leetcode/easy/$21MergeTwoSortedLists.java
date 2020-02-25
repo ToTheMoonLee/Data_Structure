@@ -9,7 +9,7 @@ package practice.leetcode.easy;
  * Input: 1->2->4, 1->3->4
  * Output: 1->1->2->3->4->4
  */
-public class $MergeTwoSortedLists {
+public class $21MergeTwoSortedLists {
 
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1);
