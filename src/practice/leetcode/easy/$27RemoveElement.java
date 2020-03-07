@@ -42,7 +42,7 @@ package practice.leetcode.easy;
  *     print(nums[i]);
  * }
  */
-public class $RemoveElement {
+public class $27RemoveElement {
 
     public static void main(String[] args) {
         int[] nums = new int[]{0, 1, 2, 2, 3, 0, 4, 2};

@@ -12,7 +12,7 @@ package practice.leetcode.easy;
  * Input: 1->1->2->3->3
  * Output: 1->2->3
  */
-public class $RemoveDuplicatesFromSortedList {
+public class $83RemoveDuplicatesFromSortedList {
 
     public static void main(String[] args) {
 
