@@ -28,7 +28,7 @@ import java.util.Stack;
  * 3. You may assume that all operations are valid (for example,
  * no pop or peek operations will be called on an empty queue).
  */
-public class ImplementQueueUsingStacks {
+public class $232ImplementQueueUsingStacks {
 
     public static void main(String[] args) {
         MyQueue q = new MyQueue();
