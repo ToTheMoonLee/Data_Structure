@@ -15,4 +15,9 @@ public class PrintUtil {
             System.out.println(s);
         }
     }
+    public static void printList2(List<Integer> list) {
+        for (Integer s : list) {
+            System.out.println(s);
+        }
+    }
 }
