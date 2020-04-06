@@ -25,7 +25,7 @@ package practice.leetcode.easy;
  *
  * Explanation: The perimeter is the 16 yellow stripes in the image below:
  */
-public class $IslandPerimeter {
+public class $463IslandPerimeter {
 
     public static void main(String[] args) {
         int[][] grid = new int[][]{new int[]{0, 1, 0, 0}, new int[]{1, 1, 1, 0}, new int[]{0, 1, 0, 0}, new int[]{1, 1, 0, 0}};
