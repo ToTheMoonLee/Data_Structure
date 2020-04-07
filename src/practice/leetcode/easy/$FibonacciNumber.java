@@ -34,6 +34,11 @@ package practice.leetcode.easy;
  */
 public class $FibonacciNumber {
 
+    /**
+     * we can learn more solutions here
+     * <a href="https://leetcode.com/problems/fibonacci-number/solution/"/>
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println(fib(10));
         System.out.println(fib2(10));
