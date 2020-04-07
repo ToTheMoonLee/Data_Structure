@@ -20,4 +20,9 @@ public class PrintUtil {
             System.out.println(s);
         }
     }
+    public static void printArr(String[] arr) {
+        for (String s : arr) {
+            System.out.println(s);
+        }
+    }
 }
