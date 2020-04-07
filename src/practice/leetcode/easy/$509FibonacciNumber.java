@@ -32,11 +32,11 @@ package practice.leetcode.easy;
  *
  * 0 ≤ N ≤ 30.
  */
-public class $FibonacciNumber {
+public class $509FibonacciNumber {
 
     /**
      * we can learn more solutions here
-     * <a href="https://leetcode.com/problems/fibonacci-number/solution/"/>
+     * <a href="https://leetcode.com/problems/fibonacci-number/solution/"/>F
      * @param args
      */
     public static void main(String[] args) {
