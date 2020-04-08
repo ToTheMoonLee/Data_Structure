@@ -26,7 +26,7 @@ package practice.leetcode.easy;
  * There are at least two nodes in this BST.
  * This question is the same as 783: https://leetcode.com/problems/minimum-distance-between-bst-nodes/
  */
-public class $MinimumAbsoluteDifferenceInBST {
+public class $530MinimumAbsoluteDifferenceInBST {
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
