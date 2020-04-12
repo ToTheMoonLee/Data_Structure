@@ -1,5 +1,8 @@
 package practice.datastructure.util;
 
+
+import practice.leetcode.easy.TreeNode;
+
 import java.util.List;
 
 public class PrintUtil {
@@ -34,5 +37,12 @@ public class PrintUtil {
                 }
             }
         }
+    }
+
+    public static void printBT(TreeNode root) {
+        if (root == null) return;
+        System.out.println(String.valueOf(root.val));
+        printBT(root.left);
+        printBT(root.right);
     }
 }
