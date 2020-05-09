@@ -43,7 +43,7 @@ public class $1018BinaryPrefixDivisibleBy5 {
     }
 
     /**
-     * with the hint of other one,I figure out this solution of this problem finally
+     * with the hint of other one,I finally figured out the solution of this problem
      * <a href=https://leetcode.com/problems/binary-prefix-divisible-by-5/discuss/296249/Java-solution-with-best-explanation(don't-know-why-some-explanation-not-concise)/>
      */
     static List<Boolean> prefixesDivBy5(int[] A) {
