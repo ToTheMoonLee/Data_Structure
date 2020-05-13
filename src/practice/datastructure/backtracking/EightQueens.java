@@ -1,7 +1,7 @@
 package practice.datastructure.backtracking;
 
 /**
- * 使用回溯思想，解决8皇后问题
+ * solving the 8 queens problem with the backtracking algorithm. 使用回溯思想，解决8皇后问题
  */
 public class EightQueens {
 
