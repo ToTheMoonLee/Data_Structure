@@ -49,15 +49,12 @@ public class $1122RelativeSortArray {
         }
         int i = 0;
         for (int j : arr2) {
-            int k = nums[j];
-            nums[j] = 0;
-            while (k-- > 0) {
+            while (nums[j]-- > 0) {
                 arr1[i++] = j;
             }
         }
         for (int j = 0; j < nums.length; j++) {
-            int k = nums[j];
-            while (k-- > 0) {
+            while (nums[j]-- > 0) {
                 arr1[i++] = j;
             }
         }
