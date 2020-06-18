@@ -23,6 +23,14 @@ public class PrintUtil {
             System.out.println(s);
         }
     }
+    public static void printList3(List<List<Integer>> list) {
+        for (List<Integer> arr : list) {
+            for (Integer i : arr) {
+                System.out.println(i);
+            }
+            System.out.println(" --------------- ");
+        }
+    }
     public static void printArr(String[] arr) {
         for (String s : arr) {
             System.out.println(s);
