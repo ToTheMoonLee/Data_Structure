@@ -57,18 +57,18 @@ public class $1237FindPositiveIntegerSolutionForAGivenEquation {
      * @param z
      * @return
      */
-    static List<List<Integer>> findSolution(CustomFunction customfunction, int z) {
-        List<List<Integer>> ans = new ArrayList<>();
-        int x = 1;
-        int y = 1000;
-        while (x < 1001 && y > 0) {
-            int a = customfunction.f(x,y);
-            if (a > z) --y;
-            else if (a < z) ++x;
-            else ans.add(Arrays.asList(x++,y--));
-        }
-        return ans;
-    }
+//    static List<List<Integer>> findSolution(CustomFunction customfunction, int z) {
+//        List<List<Integer>> ans = new ArrayList<>();
+//        int x = 1;
+//        int y = 1000;
+//        while (x < 1001 && y > 0) {
+//            int a = customfunction.f(x,y);
+//            if (a > z) --y;
+//            else if (a < z) ++x;
+//            else ans.add(Arrays.asList(x++,y--));
+//        }
+//        return ans;
+//    }
 
     /**
      * my solution of this problem
@@ -76,25 +76,25 @@ public class $1237FindPositiveIntegerSolutionForAGivenEquation {
      * @param z
      * @return
      */
-    static List<List<Integer>> findSolution(CustomFunction customfunction, int z) {
-        List<List<Integer>> ans = new ArrayList<>();
-        for (int i=1;i<=1000;i++) {
-            int j=1;
-            for (;j<=1000;j++) {
-                if (customfunction.f(i,j) > z) {
-                    break;
-                }
-                if (customfunction.f(i,j) == z) {
-                    List<Integer> temp = new ArrayList<>();
-                    temp.add(i);
-                    temp.add(j);
-                    ans.add(temp);
-                }
-            }
-            if (customfunction.f(i,1) > z) {
-                break;
-            }
-        }
-        return ans;
-    }
+//    static List<List<Integer>> findSolution(CustomFunction customfunction, int z) {
+//        List<List<Integer>> ans = new ArrayList<>();
+//        for (int i=1;i<=1000;i++) {
+//            int j=1;
+//            for (;j<=1000;j++) {
+//                if (customfunction.f(i,j) > z) {
+//                    break;
+//                }
+//                if (customfunction.f(i,j) == z) {
+//                    List<Integer> temp = new ArrayList<>();
+//                    temp.add(i);
+//                    temp.add(j);
+//                    ans.add(temp);
+//                }
+//            }
+//            if (customfunction.f(i,1) > z) {
+//                break;
+//            }
+//        }
+//        return ans;
+//    }
 }
