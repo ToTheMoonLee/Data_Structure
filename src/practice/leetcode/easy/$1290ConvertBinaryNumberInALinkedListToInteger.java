@@ -46,8 +46,26 @@ public class $1290ConvertBinaryNumberInALinkedListToInteger {
         root.next = new ListNode(0);
         root.next.next = new ListNode(1);
         System.out.println(getDecimalValue(root));
+        System.out.println(getDecimalValue2(root));
     }
 
+    /**
+     * their solution of this problem
+     * @param head
+     * @return
+     */
+    static int getDecimalValue2(ListNode head) {
+        int ans = 0;
+        while (head != null) {
+            ans = (ans << 1) | head.val;
+            head = head.next;
+        }
+        return ans;
+    }
+
+    /**
+     * my solution of this problem
+     */
     static int i=0;
     static int getDecimalValue(ListNode head) {
         return getAns(head);
