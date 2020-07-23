@@ -50,7 +50,7 @@ import java.util.Comparator;
 public class $1356SortIntegersByTheNumberOf1Bits {
 
     public static void main(String[] args) {
-        PrintUtil.printArr(new int[]{0,1,2,3,4,5,6,7,8});
+        PrintUtil.printArr(sortByBits(new int[]{0,1,2,3,4,5,6,7,8}));
     }
 
     /**
