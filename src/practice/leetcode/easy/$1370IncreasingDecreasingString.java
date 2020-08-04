@@ -60,6 +60,11 @@ public class $1370IncreasingDecreasingString {
         System.out.println(sortString2("aaaabbbbcccc"));
     }
 
+    /**
+     * their solution of this problem
+     * @param s
+     * @return
+     */
     static String sortString2(String s) {
         StringBuilder ans = new StringBuilder();
         int[] count = new int[26];
@@ -82,6 +87,11 @@ public class $1370IncreasingDecreasingString {
         }
     }
 
+    /**
+     * my solution of this problem
+     * @param s
+     * @return
+     */
     static String sortString(String s) {
         char[] charArr = s.toCharArray();
         Stack<Character> s1 = new Stack<>();
