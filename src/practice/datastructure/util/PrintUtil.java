@@ -31,6 +31,11 @@ public class PrintUtil {
             System.out.println(" --------------- ");
         }
     }
+    public static void printList4(List<Boolean> list) {
+        for (Boolean s : list) {
+            System.out.println(s);
+        }
+    }
     public static void printArr(String[] arr) {
         for (String s : arr) {
             System.out.println(s);
