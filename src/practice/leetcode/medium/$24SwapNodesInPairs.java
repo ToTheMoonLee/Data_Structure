@@ -1,7 +1,7 @@
 package practice.leetcode.medium;
 
 import practice.datastructure.util.PrintUtil;
-import practice.leetcode.easy.ListNode;
+import practice.leetcode.ListNode;
 
 /**
  * Given a linked list, swap every two adjacent nodes and return its head.

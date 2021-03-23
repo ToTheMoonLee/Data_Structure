@@ -1,5 +1,7 @@
 package practice.leetcode.easy;
 
+import practice.leetcode.ListNode;
+
 /**
  * Remove all elements from a linked list of integers that have value val.
  * <p>

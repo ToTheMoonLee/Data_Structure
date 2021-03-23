@@ -1,7 +1,7 @@
 package practice.datastructure.util;
 
 
-import practice.leetcode.easy.ListNode;
+import practice.leetcode.ListNode;
 import practice.leetcode.easy.TreeNode;
 
 import java.util.List;

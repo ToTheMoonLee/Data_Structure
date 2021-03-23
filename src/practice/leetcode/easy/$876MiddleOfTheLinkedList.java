@@ -1,5 +1,7 @@
 package practice.leetcode.easy;
 
+import practice.leetcode.ListNode;
+
 /**
  * Given a non-empty, singly linked list with head node head, return a middle node of linked list.
  *
