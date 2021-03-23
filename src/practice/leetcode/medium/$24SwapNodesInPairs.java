@@ -22,10 +22,10 @@ public class $24SwapNodesInPairs {
         node3.next = node4;
         node4.next = node5;
 
-        PrintUtil.printListNode(swapNodesInPairs(node1));
+        PrintUtil.printListNode(swapPairs(node1));
     }
 
-    static ListNode swapNodesInPairs(ListNode head) {
+    static ListNode swapPairs(ListNode head) {
         ListNode pre = new ListNode();
         pre.next = head;
         ListNode next = null;
@@ -40,5 +40,20 @@ public class $24SwapNodesInPairs {
             cur = next;
         }
         return head.next;
+    }
+
+    /**
+     * their recursive solution of this problem
+     * @param head
+     * @return
+     */
+    static ListNode swapPairs2(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode n = head.next;
+        head.next = swapPairs2(head.next.next);
+        n.next = head;
+        return n;
     }
 }
