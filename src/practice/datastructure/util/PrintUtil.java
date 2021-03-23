@@ -1,6 +1,7 @@
 package practice.datastructure.util;
 
 
+import practice.leetcode.easy.ListNode;
 import practice.leetcode.easy.TreeNode;
 
 import java.util.List;
@@ -49,6 +50,13 @@ public class PrintUtil {
                     System.out.println();
                 }
             }
+        }
+    }
+
+    public static void printListNode(ListNode head) {
+        while (head != null) {
+            System.out.println("val is : " + head.val);
+            head = head.next;
         }
     }
 
