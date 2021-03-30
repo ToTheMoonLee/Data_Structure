@@ -1,4 +1,4 @@
-package practice.leetcode.hard;
+package practice.leetcode.hard.stack_queue;
 
 import java.util.LinkedList;
 

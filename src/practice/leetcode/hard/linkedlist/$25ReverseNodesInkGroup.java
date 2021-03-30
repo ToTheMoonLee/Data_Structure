@@ -1,4 +1,4 @@
-package practice.leetcode.hard;
+package practice.leetcode.hard.linkedlist;
 
 import practice.datastructure.util.PrintUtil;
 import practice.leetcode.ListNode;

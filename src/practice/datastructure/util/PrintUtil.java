@@ -26,9 +26,13 @@ public class PrintUtil {
     }
     public static void printList3(List<List<Integer>> list) {
         for (List<Integer> arr : list) {
-            for (Integer i : arr) {
-                System.out.println(i);
+            for (int i = 0; i < arr.size(); i++) {
+                System.out.print(arr.get(i));
+                if (i != arr.size() - 1) {
+                    System.out.print(", ");
+                }
             }
+            System.out.println();
             System.out.println(" --------------- ");
         }
     }
