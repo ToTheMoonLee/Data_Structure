@@ -1,4 +1,6 @@
-package practice.leetcode.easy;
+package practice.leetcode.easy.tree;
+
+import practice.leetcode.TreeNode;
 
 import java.util.ArrayList;
 import java.util.HashSet;

@@ -1,6 +1,7 @@
-package practice.leetcode.easy;
+package practice.leetcode.easy.tree;
 
 import practice.datastructure.util.PrintUtil;
+import practice.leetcode.TreeNode;
 
 /**
  * Given a binary search tree, rearrange the tree in in-order

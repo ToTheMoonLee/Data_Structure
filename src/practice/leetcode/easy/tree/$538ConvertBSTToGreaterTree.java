@@ -1,4 +1,6 @@
-package practice.leetcode.easy;
+package practice.leetcode.easy.tree;
+
+import practice.leetcode.TreeNode;
 
 /**
  * Given a Binary Search Tree (BST), convert it to a Greater Tree such that every key of the original BST

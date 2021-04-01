@@ -1,4 +1,4 @@
-package practice.leetcode.easy;
+package practice.leetcode;
 
 
 public class TreeNode {
@@ -6,7 +6,7 @@ public class TreeNode {
     public TreeNode left;
     public TreeNode right;
 
-    TreeNode(int x) {
+    public TreeNode(int x) {
         val = x;
     }
 }

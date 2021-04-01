@@ -1,4 +1,6 @@
-package practice.leetcode.easy;
+package practice.leetcode.easy.tree;
+
+import practice.leetcode.TreeNode;
 
 /**
  * Given a non-empty special binary tree consisting of nodes with the non-negative value,

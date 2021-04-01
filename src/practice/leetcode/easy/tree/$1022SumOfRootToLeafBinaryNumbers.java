@@ -1,6 +1,7 @@
-package practice.leetcode.easy;
+package practice.leetcode.easy.tree;
 
 import practice.datastructure.util.PrintUtil;
+import practice.leetcode.TreeNode;
 
 import java.util.HashMap;
 import java.util.Stack;

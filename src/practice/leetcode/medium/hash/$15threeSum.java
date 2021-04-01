@@ -1,4 +1,4 @@
-package practice.leetcode.hard.hash;
+package practice.leetcode.medium.hash;
 
 import practice.datastructure.util.PrintUtil;
 

@@ -1,6 +1,7 @@
-package practice.leetcode.easy;
+package practice.leetcode.easy.tree;
 
 import practice.datastructure.util.PrintUtil;
+import practice.leetcode.TreeNode;
 
 /**
  * Given two binary trees and imagine that when you put one of them to cover the other,
