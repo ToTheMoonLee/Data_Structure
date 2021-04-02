@@ -1,6 +1,7 @@
 package practice.leetcode.easy;
 
 import practice.datastructure.util.PrintUtil;
+import practice.leetcode.TreeNode;
 
 /**
  * Given a binary search tree (BST) with duplicates,
